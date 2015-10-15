@@ -1,0 +1,9 @@
+<%= form_for @idea, html: {id: "new-idea-form" } do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title, value: @idea.title, id: "title-field" %>
+
+  <%= f.label :body %>
+  <%= f.text_field :body, value: @idea.body, id: "body-field" %>
+
+  <%= f.submit id: "new-idea-button" %>
+<% end %>

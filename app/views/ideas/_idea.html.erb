@@ -1,0 +1,11 @@
+ <li class="idea" id="<%= idea.id %>">
+    <h1 class="title"><%= idea.title %></h1>
+    <h3 class="body"><%= truncate(idea.body, length: 100, separator: " ") %></h3>
+    <%= link_to "Edit", edit_idea_path(idea), class: "btn btn-md btn-primary" %>
+    <button class="delete btn btn-md btn-primary">delete</button>
+    <br>
+    <br>
+    <h4 class="quality"><%= idea.quality %></h4>
+    <button class="thumbsup btn btn-sm btn-success">Thumbs Up</button> <button class="thumbsdown btn btn-sm btn-danger">Thumbs Down</button>
+    <hr>
+  </li>
