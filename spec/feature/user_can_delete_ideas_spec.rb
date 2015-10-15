@@ -7,7 +7,7 @@ RSpec.describe "user can delete idea" do
 
   scenario "user can delete idea", js: :true do
     visit "/"
-    click_button "delete"
+    click_button "Delete"
 
     expect(page).to_not have_content("test idea")
   end
