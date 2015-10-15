@@ -14,8 +14,4 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require idea
-//= require create_idea
-//= require delete_idea
-//= require update_quality
-//= require search
 //= require_tree .

@@ -23,3 +23,14 @@ function clearField() {
    $("#title-field").val("");
    $("#body-field").val("");
 }
+
+// function editIdea(event) {
+//   event.preventDefault();
+//   editIdeaInfo();
+// }
+//
+// function editIdeaInfo() {
+//   $.put("/idea", ideaInfo(), function(data) {
+//
+//   });
+// }
