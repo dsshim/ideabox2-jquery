@@ -10,7 +10,7 @@ RSpec.describe "user can change idea quality" do
     click_on "Thumbs Up"
 
     within(".idea") do
-      expect(page).to have_content("plausible")
+      expect(page).to have_content("Plausible")
     end
 
     visit "/"
@@ -20,7 +20,7 @@ RSpec.describe "user can change idea quality" do
     end
 
     within(".idea") do
-      expect(page).to have_content("genius")
+      expect(page).to have_content("Genius")
     end
   end
 
@@ -34,7 +34,7 @@ RSpec.describe "user can change idea quality" do
     click_on "Thumbs Down"
 
     within(".idea") do
-      expect(page).to have_content("plausible")
+      expect(page).to have_content("Plausible")
     end
 
     visit "/"
@@ -48,7 +48,7 @@ RSpec.describe "user can change idea quality" do
     end
 
     within(".idea") do
-      expect(page).to have_content("swill")
+      expect(page).to have_content("Swill")
     end
   end
 

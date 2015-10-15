@@ -1,6 +1,6 @@
  <li class="idea" id="<%= idea.id %>">
     <h1 class="title"><%= idea.title %></h1>
-    <h3 class="body"><%= truncate(idea.body, length: 100, separator: " ") %></h3>
+    <h3 class="body"><%= format_body(idea) %></h3>
     <%= link_to "Edit", edit_idea_path(idea), class: "btn btn-md btn-primary" %>
     <button class="delete btn btn-md btn-primary">Delete</button>
     <br>

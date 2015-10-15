@@ -312,6 +312,13 @@
         1,
         null
       ],
+      "/Users/Dave/Turing/module_4/ideabox2/app/helpers/idea_helper.rb": [
+        1,
+        1,
+        9,
+        null,
+        null
+      ],
       "/Users/Dave/Turing/module_4/ideabox2/spec/feature/user_can_delete_ideas_spec.rb": [
         1,
         null,
@@ -484,6 +491,6 @@
         null
       ]
     },
-    "timestamp": 1444876645
+    "timestamp": 1444878653
   }
 }
